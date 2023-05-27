@@ -4,11 +4,13 @@
   "description": "![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "start": "node-sass -w styles/sass/main.scss styles/css/style.css"
+    "start": "node-sass -w styles/sass/main.scss styles/css/style.css",
+    "build": "parcel build index.html"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^9.0.0"
+    "node-sass": "^9.0.0",
+    "parcel": "^2.9.1"
   }
 }
