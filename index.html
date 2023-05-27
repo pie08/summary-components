@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/css/style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="summary-wrapper">
+      <div class="result">
+        <p class="result__title">Your Result</p>
+        <div class="result__score--wrapper">
+          <p class="result__score">76</p>
+          <span class="result__score--subtext">of 100</span>
+        </div>
+        <span class="result__subtext">Great</span>
+        <p class="result__text">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <div class="summary">
+        <p class="summary__title">Summary</p>
+        <ul class="summary__list">
+          <li class="summary__item summary__item--1">
+            <span class="summary__item-text">Reaction</span>
+            <span class="summary__item-score">80 / <span>100</span></span>
+          </li>
+          <li class="summary__item summary__item--2">
+            <span class="summary__item-text">Memory</span>
+            <span class="summary__item-score">80 / <span>100</span></span>
+          </li>
+          <li class="summary__item summary__item--3">
+            <span class="summary__item-text">Verbal</span>
+            <span class="summary__item-score">80 / <span>100</span></span>
+          </li>
+          <li class="summary__item summary__item--4">
+            <span class="summary__item-text">Visual</span>
+            <span class="summary__item-score">80 <span>/ 100</span></span>
+          </li>
+        </ul>
+        <button class="btn">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
